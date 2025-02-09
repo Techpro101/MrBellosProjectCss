@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My CSS Assignments</title>
+
+    <style>
+       
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #5c85aa;  /* Medium blue-gray background */
+            padding: 20px;
+        }
+        
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background-color: #f0f4f8;  /* Light grayish-blue */
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+        }
+
+        h1 {
+            color: #2c4658;  /* Darker blue for contrast */
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .nav-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .nav-link {
+            background-color: #ffffff;  /* White background for cards */
+            padding: 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            color: #2c4658;  /* Matching heading color */
+            border: 1px solid #c8d6e3;  /* Light border */
+            text-align: center;
+            transition: background-color 0.3s;
+        }
+
+        .nav-link:hover {
+            background-color: #e6edf5;  /* Slightly darker on hover */
+        }
+
+        .nav-link h2 {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        .nav-link p {
+            color: #5c85aa;  /* Matching body background */
+            font-size: 14px;
+        }
+
+        @media (max-width: 600px) {
+            .nav-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <h1>Welcome my CSS Projects</h1>
+        <div class="nav-grid">
+            <a href="Scissors.html" class="nav-link">
+                <h2>Scissors</h2>
+                <p>check out scissors designs</p>
+            </a>
+
+            <a href="Assignment1otter.html" class="nav-link">
+                <h2>Otter Design</h2>
+                <p>Check out otter</p>
+            </a>
+
+            <a href="Assignment2Huckleberry.html" class="nav-link">
+                <h2>Huckleberry Design</h2>
+                <p>Check out Huckleberry</p>
+            </a>
+
+            <a href="Assignment3novus.html" class="nav-link">
+                <h2>Novous Design</h2>
+                <p>Check out Novous</p>
+            </a>
+
+            <a href="Assignment4Training.html" class="nav-link">
+                <h2>Trainers Design</h2>
+                <p>Check out the page </p>
+            </a>
+
+            <a href="pusher.html" class="nav-link">
+                <h2>Pusher Design</h2>
+                <p>Check out pusher </p>
+            </a>
+        </div>
+    </div>
+
+
+
+
+
+</div>
+</body>
+</html>
